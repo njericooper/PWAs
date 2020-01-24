@@ -6,11 +6,6 @@ import './App.css';
 const Page = ({ title }) => (
     <div className="App">
       <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="App-intro">
-        This is the {title} page.
-      </p>
-      </div>
       <p>
         <Link to="/">Home</Link>
       </p>
@@ -20,6 +15,12 @@ const Page = ({ title }) => (
       <p>
         <Link to="/settings">Settings</Link>
       </p>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p className="App-intro">
+        This is the {title} page.
+      </p>
+      </div>
+      
     </div>
 );
 
