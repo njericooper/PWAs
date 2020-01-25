@@ -1,29 +1,25 @@
 import React, { Component } from 'react';
 import { Router, browserHistory, Route, Link } from 'react-router';
-import logo from './logo.svg';
+import logo from './Ase_logo_white.png';
 import './App.css';
 
 const Page = ({ title }) => (
-    <div className="App">
+    <div className="App container">
+      <div className="nav">
+        <ul className="nav-items">
+        <li><a><Link to="/">Home</Link></a></li>
+        <li><a><Link to="/about">About</Link></a></li>
+        <li><a><Link to="/settings">Settings</Link></a></li>
+        </ul>
+      </div>
       <div className="App-header">
-      <p>
-        <Link to="/">Home</Link>
-      </p>
-      <p>
-        <Link to="/about">About</Link>
-      </p>
-      <p>
-        <Link to="/settings">Settings</Link>
-      </p>
         <img src={logo} className="App-logo" alt="logo" />
         <p className="App-intro">
-        This is the {title} page.
-      </p>
+          This is the {title} page.
+        </p>
       </div>
-      
     </div>
 );
-
 const Home = (props) => (
   <Page title="Home"/>
 );

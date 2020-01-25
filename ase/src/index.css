@@ -8,10 +8,27 @@ body {
   text-align: center;
 }
 
+.nav-items {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  background: black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.nav-items a {
+  text-decoration: none;
+  display: flex;
+  padding: .5em;
+  color: white;
+  font-size: 1.5rem;
+}
+
 .App-header {
-  background-color: #000;
-  height: 150px;
-  padding: 20px;
+  height: 5rem;
+  padding-top: 30%;
   color: white;
 }
 
@@ -19,4 +36,10 @@ body {
   font-size: large;
 }
 
-
+.container{
+  background-image: url(https://ucarecdn.com/48513cc6-7aac-4451-818c-f04cc42aee28/-/preview/600x1000/);
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
