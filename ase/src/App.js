@@ -7,9 +7,9 @@ const Page = ({ title }) => (
     <div className="App container">
       <div className="nav">
         <ul className="nav-items">
-        <li><a><Link to="/">Home</Link></a></li>
-        <li><a><Link to="/about">About</Link></a></li>
-        <li><a><Link to="/settings">Settings</Link></a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/settings">Settings</a></li>
         </ul>
       </div>
       <div className="App-header">
