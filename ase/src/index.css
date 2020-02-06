@@ -40,6 +40,6 @@ body {
   background-image: url(https://ucarecdn.com/48513cc6-7aac-4451-818c-f04cc42aee28/-/preview/500x800/);
   width: 100vw;
   height: 100vh;
-  object-fit: cover;
+  object-fit: cover; 
   background-repeat: no-repeat;
 }
